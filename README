@@ -1,3 +1,11 @@
+README
+======
+
+
+
+Installation
+------------
+
 First add the folowing lines to your deps file:
 
 [HtmlKickstartBundle]
@@ -35,8 +43,12 @@ And your done!
 99Lime HtmlkickStart is now available as a web ressource.
 
 
-So you can use the folowing lines to start your html layout:
+How To use in a layout
+----------------------
 
+
+So you can use the folowing lines to start your html layout:
+'''
 <!DOCTYPE html>
 <html><head>
 <meta charset="UTF-8">
@@ -55,3 +67,4 @@ So you can use the folowing lines to start your html layout:
 ...
 </body>
 </html>
+'''
