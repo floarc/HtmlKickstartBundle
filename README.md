@@ -33,9 +33,9 @@ Then edit you app/autoload.php and add the folowing Namespace below "$loader->re
     'NinetyNineLime'   => __DIR__.'/../vendor/bundles',
 
 
-Go back to the console adn launch:
+Go back to the console and launch:
 
-php app/console assets:install web
+    php app/console assets:install web
 
 And your done!
 
