@@ -1,6 +1,11 @@
 README
 ======
 
+HtmlkickStartBundle
+-------------------
+
+HtmlkickStartBundle allows you to quickly integrate the Html KickStart framework of Joshua Gatcke in a symfony2 project.
+To know more about Html KickStart, please visit http://www.99lime.com
 
 
 Installation
@@ -40,7 +45,7 @@ Go back to the console and launch:
 And your done!
 
 
-99Lime HtmlkickStart is now available as a web ressource.
+99Lime Html KickStart is now available as a web ressource.
 
 
 How To use in a layout
