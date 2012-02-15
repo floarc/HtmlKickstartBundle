@@ -8,29 +8,29 @@ Installation
 
 First add the folowing lines to your deps file:
 
-[HtmlKickstartBundle]
-    git=http://github.com/floarc/HtmlKickstartBundle.git
-    target=/bundles/NinetyNineLime/HtmlKickstartBundle
+    [HtmlKickstartBundle]
+        git=http://github.com/floarc/HtmlKickstartBundle.git
+        target=/bundles/NinetyNineLime/HtmlKickstartBundle
     
 Then in the console go to the root of your symfony2 preject diretory
 
 and lauch the usual command:
-./bin/vendors install
+    ./bin/vendors install
 
 Then:    
-cd ./vendor/bundles/NinetyNineLime/HtmlKickstartBundle
-git submodule init
-git submodule update
+    cd ./vendor/bundles/NinetyNineLime/HtmlKickstartBundle
+    git submodule init
+    git submodule update
 
 
 Then edit your app/AppKernel.php file in the function registerBundles in the array $bundles add the folowing line :
 
-new NinetyNineLime\HtmlKickstartBundle\NinetyNineLimeHtmlKickstartBundle(),
+    new NinetyNineLime\HtmlKickstartBundle\NinetyNineLimeHtmlKickstartBundle(),
 
 
 Then edit you app/autoload.php and add the folowing Namespace below "$loader->registerNamespaces(array(" and after previous namespace declarations:
 
-'NinetyNineLime'   => __DIR__.'/../vendor/bundles',
+    'NinetyNineLime'   => __DIR__.'/../vendor/bundles',
 
 
 Go back to the console adn launch:
@@ -48,7 +48,8 @@ How To use in a layout
 
 
 So you can use the folowing lines to start your html layout:
-``` html
+
+``` php
 <!DOCTYPE html>
 <html><head>
 <meta charset="UTF-8">
