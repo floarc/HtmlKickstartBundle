@@ -48,7 +48,7 @@ How To use in a layout
 
 
 So you can use the folowing lines to start your html layout:
-```
+``` html
 <!DOCTYPE html>
 <html><head>
 <meta charset="UTF-8">
