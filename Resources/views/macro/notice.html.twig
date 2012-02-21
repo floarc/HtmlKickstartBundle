@@ -1,0 +1,16 @@
+{% macro notice(message, type) %}
+  <div class="notice {{type|default('success')}}">{{message}}</div>
+{% endmacro %}
+
+{% macro warning(message)%}
+  {{ _self.notice(message, 'warning')}}
+{% endmacro %}
+
+{% macro error(message)%}
+  {{ _self.notice(message, 'error')}}
+{% endmacro %}
+
+{% macro success(message)%}
+  {{ _self.notice(message, 'success')}}
+{% endmacro %}
+
