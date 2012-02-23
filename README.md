@@ -13,6 +13,11 @@ Installation
 
 First add the folowing lines to your deps file:
 
+
+    [HtmlKickstart]
+        git=http://github.com/joshuagatcke/HTML-KickStart.git
+        target=/bundles/NinetyNineLime/HtmlKickstartBundle/Resources/public
+
     [HtmlKickstartBundle]
         git=http://github.com/floarc/HtmlKickstartBundle.git
         target=/bundles/NinetyNineLime/HtmlKickstartBundle
@@ -21,11 +26,6 @@ Then in the console go to the root of your symfony2 preject diretory
 
 and lauch the usual command:
     ./bin/vendors install
-
-Then:    
-    cd ./vendor/bundles/NinetyNineLime/HtmlKickstartBundle
-    git submodule init
-    git submodule update
 
 
 Then edit your app/AppKernel.php file in the function registerBundles in the array $bundles add the folowing line :
