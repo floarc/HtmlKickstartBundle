@@ -14,14 +14,16 @@ Installation
 First add the folowing lines to your deps file:
 
 
-    [HtmlKickstart]
-        git=http://github.com/joshuagatcke/HTML-KickStart.git
-        target=/bundles/NinetyNineLime/HtmlKickstartBundle/Resources/public
+	[HtmlKickstartBundle]
+		git=http://github.com/floarc/HtmlKickstartBundle.git
+		target=/bundles/NinetyNineLime/HtmlKickstartBundle
+		
+	[HtmlKickstart]
+		git=https://github.com/joshuagatcke/HTML-KickStart.git
+		target=/bundles/NinetyNineLime/HtmlKickstartBundle/Resources/public		
 
-    [HtmlKickstartBundle]
-        git=http://github.com/floarc/HtmlKickstartBundle.git
-        target=/bundles/NinetyNineLime/HtmlKickstartBundle
-    
+Be sure that HtmlKickstartBundle is declared BEFORE HtmlKickstart in your deps file.
+		
 Then in the console go to the root of your symfony2 preject diretory
 
 and lauch the usual command:
