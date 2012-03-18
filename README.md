@@ -26,8 +26,15 @@ Be sure that HtmlKickstartBundle is declared BEFORE HtmlKickstart in your deps f
 		
 Then in the console go to the root of your symfony2 preject diretory
 
-and lauch the usual command:
-    ./bin/vendors install
+and launch the command:
+
+
+    ./bin/vendors install --reinstall
+
+
+IMPORTANT NOTE: 
+Launching the usual command ./bin/vendors install is not enough. 
+You MUST add the argument  --reinstall
 
 
 Then edit your app/AppKernel.php file in the function registerBundles in the array $bundles add the folowing line :
