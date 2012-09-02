@@ -83,3 +83,9 @@ So you can use the folowing lines to start your html layout:
 </body>
 </html>
 ```
+
+Macros
+------
+
+This bundle ship with a set of macros (more will come) available in Resources/views/macro, you can import and use it
+in your templates if you need to. You can find more information about twig macros here: http://twig.sensiolabs.org/doc/tags/macro.html
