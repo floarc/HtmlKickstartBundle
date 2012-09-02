@@ -65,10 +65,10 @@ So you can use the folowing lines to start your html layout:
 <meta name="description" content="" />
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-<script type="text/javascript" src="/bundles/ninetyninelimehtmlkickstart/htmlkickstart/js/prettify.js"></script>                                   <!-- PRETTIFY -->
-<script type="text/javascript" src="/bundles/ninetyninelimehtmlkickstart/htmlkickstart/js/kickstart.js"></script>                                  <!-- KICKSTART -->
-<link rel="stylesheet" type="text/css" href="/bundles/ninetyninelimehtmlkickstart/htmlkickstart/css/kickstart.css" media="all" />                  <!-- KICKSTART -->
-<link rel="stylesheet" type="text/css" href="/bundles/ninetyninelimehtmlkickstart/htmlkickstart/style.css" media="all" />                          <!-- CUSTOM STYLES -->
+<script type="text/javascript" src="/bundles/ninetyninelimehtmlkickstart/js/prettify.js"></script>                                   <!-- PRETTIFY -->
+<script type="text/javascript" src="/bundles/ninetyninelimehtmlkickstart/js/kickstart.js"></script>                                  <!-- KICKSTART -->
+<link rel="stylesheet" type="text/css" href="/bundles/ninetyninelimehtmlkickstart/css/kickstart.css" media="all" />                  <!-- KICKSTART -->
+<link rel="stylesheet" type="text/css" href="/bundles/ninetyninelimehtmlkickstart/style.css" media="all" />                          <!-- CUSTOM STYLES -->
 </head><body>
 ...
 ..
